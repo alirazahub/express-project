@@ -1,0 +1,267 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title #{title}
+  link(rel='stylesheet' href='../static/style.css')
+
+// HEADER
+header
+  .container
+    .logo
+      a(href='#')
+        | My 
+        span Project
+    ul
+      li
+        a(href='#') Home
+      li
+        a(href='#about') About Us
+      li
+        a(href='#service') Services
+      li
+        a(href='#gallery') Gallery
+      li
+        a(href='#contact') Contact Us
+// banner
+section.banner
+  .overlay
+  img(src='../static/images/banner.gif' alt='')
+  .container
+    #welcome Welcome!
+    #exp
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi fuga iure libero minus a
+      | ratione maxime exercitationem
+      | repellendus corrupti.
+    #banner_btn
+      a.btn(href='#') Read More
+// About Us
+section.about_us
+  .container#about
+    .about-section
+      .section_title All About Us
+      p
+        | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam veritatis laborum sequi totam
+        | fugiat recusandae iure quo libero laboriosam? Voluptatibus similique quaerat, voluptates magni nobis
+        | quisquam necessitatibus accusamus illo cupiditate.
+      a.btn(href='#')  Read More
+    .main_title OUR TEAM
+    .main_row
+      .main_column
+        .card
+          img(src='../static/images/1.jpg')
+          .cont
+            h2 Ali Raza
+            .title CEO &amp; Founder
+            p Some text that describes me lorem ipsum ipsum lorem.
+            a(href='mailto:aliraza@project.com')
+              p aliraza@project.com
+            p
+              button.button PROFILE
+      .main_column
+        .card
+          img(src='../static/images/2.jpg')
+          .cont
+            h2 Mr. Raza
+            .title Art Director
+            p Some text that describes me lorem ipsum ipsum lorem.
+            a(href='mailto:mr.raza@project.com')
+              p mr.raza@project.com
+            p
+              button.button PROFILE
+      .main_column
+        .card
+          img(src='../static/images/3.jpg')
+          .cont
+            h2 Alia Raza
+            .title Designer
+            p Some text that describes me lorem ipsum ipsum lorem.
+            a(href='mailto:aliaraza@project.com')
+              p aliaraza@project.com
+            p
+              button.button PROFILE
+// services
+section.services#service
+  .container
+    .about-section
+      .section_title Services We Provides
+      p
+        | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam veritatis laborum sequi totam
+        | fugiat recusandae iure quo libero laboriosam? Voluptatibus similique quaerat, voluptates magni nobis
+        | quisquam necessitatibus accusamus illo cupiditate.
+      a.btn(href='#')  Read More
+    .main_title SERVICES
+    .features
+      .feature_items
+        img(src='../static/images/feature1.png' alt='')
+        .feature_title
+          span  Easy
+          |  Customize
+        .feature_content 24/7 support is availible for clients
+      .feature_items
+        img(src='../static/images/feature2.png' alt='')
+        .feature_title
+          span  Unique
+          |  Design
+        .feature_content Retina Ready tempaltes to make sure the quality of pictures.
+      .feature_items
+        img(src='../static/images/feature3.png' alt='')
+        .feature_title
+          span  Retina
+          |  Ready
+        .feature_content We create Unique Designs according to nature of your business.
+      .feature_items
+        img(src='../static/images/feature4.png' alt='')
+        .feature_title
+          span  24/7 
+          | Support
+        .feature_content We provide Clean and validated codeing that is easy to customize
+section
+  .container
+    .about-section
+      .section_title Our Experties
+      p
+        | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam veritatis laborum sequi totam
+        | fugiat recusandae iure quo libero laboriosam? Voluptatibus similique quaerat, voluptates magni nobis
+        | quisquam necessitatibus accusamus illo cupiditate.
+      a.btn(href='#')  Read More
+    .main_title EXPERIENCE
+    .experience
+      .exp_items
+        i.far.fa-bookmark.icon
+        h3 100+
+        p Successul Projects
+      .exp_items
+        i.fas.fa-award.icon
+        h3 20+
+        p Awards Received
+      .exp_items
+        i.far.fa-smile.icon
+        h3 1000+
+        p Happy Clients
+      .exp_items
+        i.fas.fa-users.icon
+        h3 10
+        p On Going Projects
+// gallery
+section
+  .container
+    .about-section
+      .section_title Our Projects
+      p
+        | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam veritatis laborum sequi totam
+        | fugiat recusandae iure quo libero laboriosam? Voluptatibus similique quaerat, voluptates magni nobis
+        | quisquam necessitatibus accusamus illo cupiditate.
+      a.btn(href='#')  Read More
+    .main_title PROJECTS
+    #gallery.gallery_items
+      img.image(src='../static/images/portfolio1.jpg' alt='Avatar')
+      .middle
+        .btn
+          a(href='') Category
+    .gallery_items
+      img(src='../static/images/portfolio2.jpg' alt='Avatar')
+      .middle
+        .btn
+          a(href='') Category
+    .gallery_items
+      img(src='../static/images/portfolio3.jpg' alt='Avatar')
+      .middle
+        .btn
+          a(href='') Category
+    .gallery_items
+      img(src='../static/images/portfolio4.jpg' alt='Avatar')
+      .middle
+        .btn
+          a(href='') Category
+    #experience.gallery_items
+      img(src='../static/images/portfolio5.jpg' alt='Avatar')
+      .middle
+        .btn
+          a(href='') Category
+    .gallery_items
+      img(src='../static/images/portfolio6.jpg' alt='Avatar')
+      .middle
+        .btn
+          a(href='') Category
+// contact us
+// Contact
+section#contact.contact_us
+  .container
+    .about-section
+      .section_title Our Company
+      p
+        | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam veritatis laborum sequi totam
+        | fugiat recusandae iure quo libero laboriosam? Voluptatibus similique quaerat, voluptates magni nobis
+        | quisquam necessitatibus accusamus illo cupiditate.
+      a.btn(href='#')  Read More
+    .main_title CONTACT US
+    form(action='/' method='post')
+      input(type='text' placeholder='Name' name='name')
+      input(type='text' placeholder='Subject' name='subject')
+      input(type='email' name='email' placeholder='Email')
+      input(type='tel' name='tele' placeholder='Phone Number')
+      textarea(cols='4' rows='5' name='msg' placeholder='Message')
+      input#sub_btn(type='submit' value='Send')
+// footer
+footer
+  section.container
+    .footer_content
+      ul.social_links
+        div
+          | MY 
+          span  PROJECT
+        li
+          a(href='#')
+            i.fab.fa-facebook-f
+        li
+          a(href='#')
+            i.fab.fa-twitter
+        li
+          a(href='#')
+            i.fab.fa-instagram
+        li
+          a(href='#')
+            i.fab.fa-youtube
+        li
+          a(href='#')
+            i.fab.fa-github
+      ul.page_links
+        div Pages
+        li
+          a(href='#') Home
+        li
+          a(href='#') About
+        li
+          a(href='#') Services
+        li
+          a(href='#') Gallery
+        li
+          a(href='#') Contact
+      ul.office_location
+        div Offices Location
+        li
+          a(href='#') Lahore
+        li
+          a(href='#') Karachi
+        li
+          a(href='#') Islamabad
+        li
+          a(href='#') Multan
+      ul.company
+        div Our Company
+        li
+          i.far.fa-address-card
+          a(href='#') Office Number 34, 3rd Floor Main Building, Tajpura Lahore 54000
+        li
+          i.far.fa-envelope
+          a(href='mailto:aliraza@gmial.com')  aliraza@gmail.com
+        li
+          i.fas.fa-phone
+          a(href='#')  +923025414924
+  .copy
+    | CopyRight &copy; 2021 
+    a(href='mailto:aliraza.ar7785@gmail.com') Ali Raza
+    |  | All Rights Reserved
+a.move_to_top(href='#') ^
